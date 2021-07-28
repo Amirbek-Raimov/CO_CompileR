@@ -26,7 +26,7 @@ public class RegisterMgr
         //Totally we have $t0~$t9, so if we don't have enough register, we will throw an exception
         if(this.registerT_count == 11)
         {
-            throw new RuntimeException("Temporary registor overflow");
+            throw new RuntimeException("Temporary register overflow");
         }
         return temp;
     }
@@ -44,7 +44,7 @@ public class RegisterMgr
         String temp = "$a"+this.registerA_count++;
         if(this.registerA_count == 5)
         {
-            throw new RuntimeException("Registor a overflow");
+            throw new RuntimeException("Register a overflow");
         }
         return temp;
     }
