@@ -1,8 +1,6 @@
 /*
     Compiler Construction
     For C0 syntax language
-
-    Student ID: 2018380038
     Developer:Amirbek Raimov
 
  */
